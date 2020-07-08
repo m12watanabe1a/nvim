@@ -4,20 +4,20 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/ubuntu/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=$CACHE/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/ubuntu/.cache/dein')
-  call dein#begin('/home/ubuntu/.cache/dein')
+if dein#load_state('$CACHE/dein')
+  call dein#begin('$CACHE.cache/dein')
 
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/ubuntu/.cache/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('$CACHE/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
-  call dein#load_toml('/home/ubuntu/.config/nvim/dein/dein.toml', {'lazy': 0})
-  call dein#load_toml('/home/ubuntu/.config/nvim/dein/dein_lazy.toml', {'lazy': 1})
+  call dein#load_toml('$CONFIG/nvim/dein/dein.toml', {'lazy': 0})
+  call dein#load_toml('$CONFIG/nvim/dein/dein_lazy.toml', {'lazy': 1})
 
   " Required:
   call dein#end()
