@@ -1,0 +1,3 @@
+# brakets
+[[plugins]]
+repo = 'cohama/lexima.vim'
