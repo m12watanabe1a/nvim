@@ -19,7 +19,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Plugins
 if !exists('g:vscode')
-  runtime $XDG_CONFIG_HOME/nvim/dein/init.vim
-  runtime $XDG_CONFIG_HOME/nvim/coc/snippets.vim
+  source $XDG_CONFIG_HOME/nvim/dein/init.vim
 endif

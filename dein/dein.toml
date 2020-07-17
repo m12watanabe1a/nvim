@@ -3,6 +3,9 @@
 repo = 'neoclide/coc.nvim'
 merged = 0
 rev = 'release'
+hook_source = '''
+source ~/.config/nvim/dein/coc/snippets.vim
+'''
 
 # whitespace
 [[plugins]]
