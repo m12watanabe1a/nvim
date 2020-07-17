@@ -3,8 +3,8 @@
 repo = 'neoclide/coc.nvim'
 merged = 0
 rev = 'release'
-hook_source = '''
-source ~/.config/nvim/dein/coc/snippets.vim
+hook_add = '''
+source ~/.config/nvim/coc/snippets.vim
 '''
 
 # whitespace
@@ -21,7 +21,15 @@ repo = 'dominikduda/vim_current_word'
 
 # fzf
 [[plugins]]
+repo = 'junegunn/fzf'
+build = './install --all'
+
+# fzf vim
+[[plugins]]
 repo = 'junegunn/fzf.vim'
+hook_add = '''
+source ~/.config/nvim/fzf/init.vim
+'''
 
 # brakets
 [[plugins]]
