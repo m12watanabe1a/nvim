@@ -20,6 +20,10 @@ repo = 'dominikduda/vim_current_word'
 [[plugins]]
 repo = 'junegunn/fzf.vim'
 
+# brakets
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
 # color scheme
 [[plugins]]
 repo = 'tomasr/molokai'
