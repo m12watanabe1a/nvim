@@ -7,7 +7,7 @@ set runtimepath+=$CACHE/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('$CACHE/dein')
-  call dein#begin('$CACHE.cache/dein')
+  call dein#begin('$CACHE/dein')
 
 
   " Let dein manage dein
