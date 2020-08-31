@@ -21,5 +21,5 @@ set expandtab
 
 " Plugins
 if !exists('g:vscode')
-  source $XDG_CONFIG_HOME/nvim/dein/init.vim
+  source $CONFIG/nvim/dein/init.vim
 endif
