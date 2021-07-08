@@ -19,7 +19,3 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Plugins
-if !exists('g:vscode')
-  source $CONFIG/nvim/dein/init.vim
-endif
