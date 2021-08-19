@@ -11,7 +11,7 @@ set showmatch
 set wildmode=list:longest
 set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
-set clipboard=unnamed
+set clipboard+=unnamedplus
 
 " Tab settings
 set number
