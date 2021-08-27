@@ -10,7 +10,6 @@ set showcmd
 set showmatch
 set wildmode=list:longest
 set hlsearch
-nmap <Esc><Esc> :nohlsearch<CR><Esc>
 set clipboard+=unnamedplus
 
 " Tab settings
@@ -19,3 +18,5 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" nmap
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
