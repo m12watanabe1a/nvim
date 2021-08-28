@@ -3,6 +3,8 @@ let $CONFIG = empty($XDG_CONFIG_HOME) ? expand('$HOME/.config') : $XDG_CONFIG_HO
 let $DATA = empty($XDG_DATA_HOME) ? expand('$HOME/.local/share') : $XDG_DATA_HOME
 
 call plug#begin($CONFIG . "/nvim/plugged")
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 Plug 'junegunn/fzf.vim'
 call plug#end()
 
